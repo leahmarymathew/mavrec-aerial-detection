@@ -1,0 +1,29 @@
+{
+ "experiment_id": "PAPER_ddetr_coco_aerial_test",
+ "stage": "paper",
+ "model_family": "Transformer",
+ "model_version": "deformable_detr",
+ "backbone": "ResNet-50 (multi-scale)",
+ "dataset_size": 8605,
+ "resolution": null,
+ "tiling": "none",
+ "pretraining": "COCO",
+ "epochs": null,
+ "seed": null,
+ "status": "reference",
+ "comparable": false,
+ "notes": "MAVREC paper Table 3: MS-COCO pretrained D-DETR fine-tuned on aerial (test)",
+ "created": "2026-10-06 14:30:43",
+ "lib_version": "1.0.0",
+ "evals": {
+  "test|paper|rNone": {
+   "mAP50_95": 33.2,
+   "mAP50": 61.9,
+   "APS": 31.5,
+   "APM": 51.0,
+   "eval_split": "test",
+   "inference_mode": "paper"
+  }
+ },
+ "updated": "2026-10-06 14:30:43"
+}

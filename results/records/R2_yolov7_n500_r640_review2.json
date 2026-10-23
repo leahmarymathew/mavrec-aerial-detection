@@ -1,0 +1,28 @@
+{
+ "experiment_id": "R2_yolov7_n500_r640_review2",
+ "stage": "S0-ref",
+ "model_family": "YOLO",
+ "model_version": "yolov7",
+ "backbone": "E-ELAN (YOLOv7)",
+ "dataset_size": 500,
+ "resolution": 640,
+ "tiling": "none",
+ "pretraining": "COCO",
+ "epochs": null,
+ "seed": null,
+ "status": "reference",
+ "comparable": false,
+ "notes": "Review 2: 500 train (zip order) / 100 val, 10 epochs, batch 4, YOLOv7 evaluator",
+ "created": "2026-10-06 14:30:43",
+ "lib_version": "1.0.0",
+ "evals": {
+  "val|review2|r640": {
+   "mAP50": 15.7,
+   "mAP50_95": 5.7,
+   "recall": 25.6,
+   "eval_split": "val",
+   "inference_mode": "review2"
+  }
+ },
+ "updated": "2026-10-06 14:30:43"
+}
