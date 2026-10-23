@@ -1,0 +1,6 @@
+experiment_id,stage,model_version,dataset_size,resolution,tiling,inference_mode,pretraining,mAP50_95,mAP50,APS,APt,APM,recall,F1,FPS,GPU_memory_infer_GB,parameters_M,train_time_h,seed
+S2_yolov8m_n1000_r1280_full_COCO_s42,S2,yolov8m,1000,1280.0,none,full,COCO,66.873,91.441,38.394,16.537,66.81,89.438,90.852,30.31,0.15,25.86,1.531,42.0
+S2_yolov8m_n1000_r1280_full_COCO_s42,S2,yolov8m,1000,1280.0,none,sliced,COCO,27.19,48.797,23.369,9.044,29.064,68.47,73.038,2.96,0.29,25.86,1.531,42.0
+S5_yolov8m_g2000_r1280_full_COCO_s42_groundonly,S5,yolov8m,2000,1280.0,none,full,COCO,7.992,12.943,0.362,0.002,3.16,14.949,18.481,29.01,0.15,25.86,0.225,42.0
+S5_yolov8m_n1000_r1280_full_COCO2MAVRECground_s42,S5,yolov8m,1000,1280.0,none,full,COCO>MAVREC-ground,64.443,90.922,38.156,15.109,62.972,88.604,90.828,33.18,0.15,25.86,0.774,42.0
+S5_yolov8m_n1000_r1280_full_COCO_s42_longer,S5,yolov8m,1000,1280.0,none,full,COCO,69.958,92.807,43.032,19.848,71.237,90.864,92.804,30.84,0.15,25.86,1.76,42.0

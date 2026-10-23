@@ -1,0 +1,5 @@
+row,split,experiment_id,mAP50_95,mAP50,APS,APt,APM,recall,F1,FPS,latency_ms,parameters_M,train_time_h,Δ mAP vs prev,Δ APS vs prev
+"A  YOLOv7 · 500 · 640 (Review 2 setting, re-run)",test,S0_yolov7_n500_r640_full_COCO_s42,21.87,41.381,6.801,2.732,22.7,56.132,64.018,46.4,21.55,36.53,0.775,,
+B  + resolution 1280,test,S6_yolov7_n500_r1280_full_COCO_s42,35.473,63.145,25.706,12.793,37.061,80.601,83.07,24.34,41.09,36.53,0.543,13.6,18.9
+C  + architecture (yolov8m),test,S3_yolov8m_n500_r1280_full_COCO_s42,59.246,87.717,34.405,16.227,59.413,84.536,86.929,30.05,33.28,25.86,0.716,23.77,8.7
+D  + data (2000 frames),test,S3_yolov8m_n2000_r1280_full_COCO_s42,68.554,91.165,43.848,22.276,69.133,88.646,90.315,30.02,33.32,25.86,0.739,9.31,9.44

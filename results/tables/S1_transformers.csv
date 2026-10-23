@@ -1,0 +1,3 @@
+experiment_id,stage,model_version,dataset_size,resolution,tiling,inference_mode,pretraining,mAP50_95,mAP50,APS,APt,APM,recall,F1,FPS,GPU_memory_infer_GB,parameters_M,train_time_h
+S1_deformable_detr_n1000_r960_full_COCO_s42,S1,deformable_detr,1000,960.0,none,full,COCO,19.566,38.905,7.411,2.254,26.717,53.982,59.833,7.01,0.87,40.05,3.84
+S1_rtdetr-l_n1000_r960_full_COCO_s42,S1,rtdetr-l,1000,960.0,none,full,COCO,52.887,82.186,34.665,13.489,49.767,86.293,88.49,13.51,0.25,32.83,0.602

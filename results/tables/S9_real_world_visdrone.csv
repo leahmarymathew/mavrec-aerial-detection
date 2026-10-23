@@ -1,0 +1,6 @@
+experiment_id,stage,model_version,dataset_size,resolution,tiling,inference_mode,pretraining,mAP50_95,mAP50,APS,APt,APM,recall,F1,FPS,GPU_memory_infer_GB,parameters_M,train_time_h,eval_split
+S3_yolov8m_n2000_r1280_full_COCO_s42,S3,yolov8m,2000,1280.0,none,full,COCO,6.009,12.223,3.971,2.094,8.874,32.376,37.735,24.81,0.12,25.86,0.739,visdrone_zeroshot
+S9_yolov8m_visdrone-train-1000_r1280_full_COCO2MAVREC_s42,S9,yolov8m,1000,1280.0,none,full,COCO>MAVREC,26.384,43.838,18.304,10.022,37.361,59.741,65.737,25.07,0.15,25.86,1.361,val
+S9_yolov8m_visdrone-train-1000_r1280_full_COCO_s42,S9,yolov8m,1000,1280.0,none,full,COCO,28.06,46.089,19.518,10.638,39.424,60.616,66.814,24.27,0.15,25.86,0.674,val
+S9_yolov8m_visdrone-train-250_r1280_full_COCO2MAVREC_s42,S9,yolov8m,250,1280.0,none,full,COCO>MAVREC,18.606,32.688,11.888,6.726,27.896,52.989,58.986,23.85,0.15,25.86,0.408,val
+S9_yolov8m_visdrone-train-250_r1280_full_COCO_s42,S9,yolov8m,250,1280.0,none,full,COCO,21.711,36.727,14.001,7.386,31.863,54.302,61.046,24.07,0.15,25.86,0.195,val
