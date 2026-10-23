@@ -1,0 +1,60 @@
+{
+ "S1_best_model": {
+  "value": "yolov8m",
+  "reason": "7 candidates: S1_deformable_detr_n1000_r960_full_COCO_s42, S1_frcnn_r50_v1_n1000_r960_full_COCO_s42, S1_frcnn_r50_v2_n1000_r960_full_COCO_s42, S1_rtdetr-l_n1000_r960_full_COCO_s42, S1_yolo11m_n1000_r960_full_COCO_s42, S1_yolov7_n1000_r960_full_COCO_s42, S1_yolov8m_n1000_r960_full_COCO_s42\nmAP50_95: best 61.18; within 1.0 -> ['S1_yolov8m_n1000_r960_full_COCO_s42']\nSELECTED: S1_yolov8m_n1000_r960_full_COCO_s42",
+  "set": "2026-10-09 13:58:08"
+ },
+ "finalists": {
+  "value": [
+   "yolov8m",
+   "frcnn_r50_v2"
+  ],
+  "reason": "4 candidates: S1_deformable_detr_n1000_r960_full_COCO_s42, S1_frcnn_r50_v1_n1000_r960_full_COCO_s42, S1_frcnn_r50_v2_n1000_r960_full_COCO_s42, S1_rtdetr-l_n1000_r960_full_COCO_s42\nmAP50_95: best 55.52; within 1.0 -> ['S1_frcnn_r50_v2_n1000_r960_full_COCO_s42']\nSELECTED: S1_frcnn_r50_v2_n1000_r960_full_COCO_s42",
+  "set": "2026-10-09 13:58:08"
+ },
+ "best_model": {
+  "value": "yolov8m",
+  "reason": "6 candidates: S2_frcnn_r50_v2_n1000_r640_full_COCO_s42, S1_frcnn_r50_v2_n1000_r960_full_COCO_s42, S2_frcnn_r50_v2_n1000_r1280_full_COCO_s42, S2_yolov8m_n1000_r640_full_COCO_s42, S1_yolov8m_n1000_r960_full_COCO_s42, S2_yolov8m_n1000_r1280_full_COCO_s42\nmAP50_95: best 66.87; within 1.0 -> ['S2_yolov8m_n1000_r1280_full_COCO_s42']\nSELECTED: S2_yolov8m_n1000_r1280_full_COCO_s42",
+  "set": "2026-10-09 15:46:53"
+ },
+ "best_res": {
+  "value": 1280,
+  "reason": "lowest resolution within 1 AP (mAP & APS) of the best: [{'resolution': 640.0, 'mAP50_95': 50.566, 'APS': 16.061}, {'resolution': 960.0, 'mAP50_95': 61.181, 'APS': 29.502}, {'resolution': 1280.0, 'mAP50_95': 66.873, 'APS': 38.394}]",
+  "set": "2026-10-09 15:46:53"
+ },
+ "use_tiling": {
+  "value": false,
+  "reason": "tile-trained, sliced vs full-frame 1280: {'delta_mAP50_95': -8.96, 'delta_APS': 8.42, 'keep': False}",
+  "set": "2026-10-10 15:29:04"
+ },
+ "tiling_mode": {
+  "value": "sliced",
+  "reason": "best tile-trained inference mode on val (APS)",
+  "set": "2026-10-10 15:29:04"
+ },
+ "scaling_gain_per_doubling": {
+  "value": 3.86,
+  "reason": "log-linear fit over 500/1000/2000",
+  "set": "2026-10-10 17:16:56"
+ },
+ "use_ground": {
+  "value": false,
+  "reason": "COCO->ground->aerial vs COCO->aerial at 1000 frames: {'delta_mAP50_95': -2.43, 'delta_APS': -0.24, 'keep': False, 'vs_compute_matched': {'delta_mAP50_95': -5.52, 'delta_APS': -4.88, 'keep': False}}",
+  "set": "2026-10-22 17:07:40"
+ },
+ "ground_exp": {
+  "value": "S5_yolov8m_g2000_r1280_full_COCO_s42_groundonly",
+  "reason": "ground-pretrained checkpoint used as init in notebook 08",
+  "set": "2026-10-22 17:07:40"
+ },
+ "final_model": {
+  "value": "S3_yolov8m_n2000_r1280_full_COCO_s42",
+  "reason": "last cumulative ablation row",
+  "set": "2026-10-13 10:48:56"
+ },
+ "final_mode": {
+  "value": "full",
+  "reason": "inference mode of the final model",
+  "set": "2026-10-13 10:48:56"
+ }
+}
