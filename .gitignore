@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.pt
+*.pth
+*.json.gz
+Final_Project_Data/
